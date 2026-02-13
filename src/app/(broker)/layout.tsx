@@ -35,7 +35,7 @@ export default async function BrokerLayout({
       .single();
 
     if (teamMember) {
-      brokerId = (teamMember as { broker_id: string }).broker_id;
+      brokerId = teamMember.broker_id;
     }
   }
 
