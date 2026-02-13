@@ -14,6 +14,7 @@ node_modules/
 dist/
 build/
 .next/
+.open-next/
 
 # IDE
 .vscode/
@@ -27,17 +28,8 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-.env
-.env.*
-
-node_modules/
-.next/
 
 .cursor/
 .claude/
 
 .supabase/
-
-nul
-
-
